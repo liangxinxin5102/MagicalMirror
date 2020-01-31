@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/dp_10"
+    android:background="@color/setbackground"
+    android:gravity="center">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_30">
+        <!--  问号 按钮-->
+        <ImageView
+            android:id="@+id/hint"
+            android:layout_centerVertical="true"
+            android:layout_width="@dimen/dp_45"
+            android:layout_height="@dimen/dp_45"
+            android:scaleType="centerInside"
+            android:src="@mipmap/hint"/>
+        <!--  选择相框 按钮-->
+        <ImageView
+            android:id="@+id/choose"
+            android:layout_width="@dimen/dp_45"
+            android:layout_height="@dimen/dp_45"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/choose"
+            android:scaleType="centerInside"
+            android:layout_alignParentRight="true"/>
+        <!--  灯泡图标-->
+        <ImageView
+            android:id="@+id/cencer"
+            android:layout_width="@dimen/dp_45"
+            android:layout_height="@dimen/dp_45"
+            android:src="@mipmap/light"
+            android:scaleType="centerInside"
+            android:layout_centerInParent="true"/>
+        <!--  减亮度 按钮-->
+        <ImageView
+            android:id="@+id/light_down"
+            android:layout_width="@dimen/dp_45"
+            android:layout_height="@dimen/dp_45"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/downlight"
+            android:scaleType="centerInside"
+            android:layout_toLeftOf="@+id/cencer"
+            android:layout_marginRight="@dimen/dp_20"/>
+        <!--  加亮度 按钮-->
+        <ImageView
+            android:id="@+id/light_up"
+            android:layout_width="@dimen/dp_45"
+            android:layout_height="@dimen/dp_45"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/uplight"
+            android:scaleType="centerInside"
+            android:layout_toRightOf="@+id/cencer"
+            android:layout_marginLeft="@dimen/dp_20"/>
+    </RelativeLayout>
+
+</LinearLayout>

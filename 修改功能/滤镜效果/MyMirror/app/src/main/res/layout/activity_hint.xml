@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.mingrisoft.mymirror.activity.HintActivity">
+    <!-- 添加组件-->
+    <TextView
+        android:layout_marginTop="@dimen/dp_3"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_55"
+        android:background="@drawable/back_shape_white"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/dp_18"
+        android:text="调节亮度"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_0"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        />
+    <TextView
+        android:id="@+id/i_know"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_marginBottom="@dimen/dp_10"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dp_40"
+        android:background="@drawable/an"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/dp_18"
+        android:text="我知道了"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_55"
+        android:background="@drawable/back_shape_white"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/dp_18"
+        android:layout_marginBottom="@dimen/dp_3"
+        android:text="调节焦距"/>
+</LinearLayout>

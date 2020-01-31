@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Alpha为8位灰度通道，用256级灰度记录图像中的透明度，定义不透明、透明和半透明区域-->
+    <alpha
+        android:fromAlpha="0"
+        android:toAlpha="1"
+        android:duration="3000"/>
+</set>

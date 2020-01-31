@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_image"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.mingrisoft.mymirror.activity.ImageActivity">
+    <TextView
+        android:id="@+id/back_to_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/back_txt"
+        android:gravity="center_vertical"
+        android:textSize="@dimen/dp_20"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="#eb444648"
+        android:drawableLeft="@mipmap/back_to_main"/>
+    <ImageView
+        android:id="@+id/show"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"/>
+</LinearLayout>
